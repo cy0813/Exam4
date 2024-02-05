@@ -20,6 +20,8 @@ wd=WordCloud(
 plt.imshow(wd)
 
 plt.axis('off')
+
+wd.to_file('詞雲圖.png')
     
 '''
 img1=wd.to_image()
