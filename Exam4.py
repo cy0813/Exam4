@@ -2,8 +2,6 @@
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import jieba
-import numpy
-from PLD import image
 fn='travel.txt'
 
 with open(fn,'r',encoding='utf-8') as fb:
